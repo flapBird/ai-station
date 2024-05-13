@@ -1,14 +1,14 @@
 import Image from "next/image";
-import head from "./head"
-import main from "./Main";
 import Head from "./head";
 import Main from "./Main";
+import {Footer} from "@/app/footer";
 
 export default function Home() {
   return (
       <div>
-        <Head/>
-        <Main/>
+          <Head/>
+          <Main/>
+          <Footer/>
       </div>
 );
 }

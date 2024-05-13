@@ -4,7 +4,7 @@ import ItemComponent from './ItemComponent';
 
 export default function Main() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-orange-200">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50">
       {/* 这是页面主体部分 */}
       <div>
         {/* 主体:标题部分 */}
