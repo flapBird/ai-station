@@ -29,7 +29,7 @@ const ItemComponent: React.FC<ItemComponentProps> = ({ item }) => {
                     </a></div>
                 </div>
                 <div className="flex justify-start text-main-color-2 mt-2 break-words">
-                    <div className="text-md line-clamp-3">{item.description}</div>
+                    <div className="text-md line-clamp-3 text-gray-500">{item.description}</div>
                 </div>
             </div>
         </div>

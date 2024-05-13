@@ -1,24 +1,47 @@
+"use client";
+
 export function Footer() {
+    const footerNavs = [
+        {
+            href: 'javascript:void()',
+            name: 'About'
+        },
+        {
+            href: 'javascript:void()',
+            name: 'Team'
+        },
+        {
+            href: 'javascript:void()',
+            name: 'Suuport'
+        }
+    ]
+
     return (
-        <footer className="bg-white text-zinc-900 py-8">
-            <div className="max-w-screen-xl mx-auto px-4 flex flex-col items-center gap-4">
-                <div>
-                    <div className="select-none flex items-center">
-                        <div className="mr-2">
-                            <img alt="Tailsc Logo" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style={{ color:"transparent"}} src="/vercel.svg"/></div>
-                        <div className="text-xl __className_3ac6c1">Tailsc</div>
-                    </div>
-                </div>
-                <p className="text-base text-center text-zinc-500 mx-auto max-w-2xl">Get started over 100+ UI components, sections and pages built with Tailwind CSS.</p>
-                <ul className="flex flex-1 min-w-0 justify-center items-center gap-8">
-                    <li><a className="text-zinc-900 hover:text-blue-500" href="#">Home</a></li>
-                    <li><a className="text-zinc-900 hover:text-blue-500" href="#">Product</a></li>
-                    <li><a className="text-zinc-900 hover:text-blue-500" href="#">Blog</a></li>
-                    <li><a className="text-zinc-900 hover:text-blue-500" href="#">About</a></li>
-                    <li><a className="text-zinc-900 hover:text-blue-500" href="#">Contact</a></li>
-                </ul>
-                <div className="text-sm text-zinc-500 text-center">© 2024 Tailsc. All Rights Reserved.</div>
+        <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8">
+            <div className="max-w-lg sm:mx-auto sm:text-center">
+                <img src="https://www.floatui.com/logo.svg" className="w-32 sm:mx-auto" />
+                <p className="leading-relaxed mt-2 text-[15px]">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
             </div>
+            <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
+                {
+                    footerNavs.map((item, idx) => (
+                        <li className=" hover:text-gray-800">
+                            <a key={idx} href={item.href}>
+                                { item.name }
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+            <style jsx>{`
+                .svg-icon path,
+                .svg-icon polygon,
+                .svg-icon rect {
+                    fill: currentColor;
+                }
+            `}</style>
         </footer>
     );
 }
