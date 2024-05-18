@@ -3,114 +3,103 @@ export interface Item {
     pic: string;
     title: string;
     description: string;
+    url:  string
 }
 
 // 数据数组
 export const items: Item[] = [
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut1-chatbit.png",
+        title: "Chatbit",
+        description: "Custom AI chatbots trained on your data.Boost engagement, answer questions & capture leads. Trained and optimized on your data.",
+        url:  "https://chatbit.co/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut2-macky.png",
+        title: "macky",
+        description: "AI-powered consulting platform providing high-level insights from simple questions.",
+        url:  "https://macky.ai/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut3-solab.png",
+        title: "Socratic Lab",
+        description: "Collaborative learning and knowledge-sharing platform",
+        url: "https://www.solab.ai/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut4-wonderchat.png",
+        title: "Wonderchat",
+        description: "Create custom chatbot with Wonderchat, boost customer response speed by 100% and reduce workload.",
+        url: "https://wonderchat.io/"
     },
 
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut5-writego.png",
+        title: "WriteGo.ai",
+        description: "AI writing assistant for academic excellence",
+        url: "https://writego.ai/app"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut6-launchpal.png",
+        title: "LaunchPal",
+        description: "Efficient AI-powered marketing tool",
+        url: "https://www.launchpal.ai/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut7-aimeduza.png",
+        title: "MeduzaAi",
+        description: "AI content generation platform",
+        url: "https://aimeduza.com/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut8-coolcaptionideas.png",
+        title: "Cool Caption Ideas",
+        description: "Create catchy captions effortlessly",
+        url: "https://coolcaptionideas.com/"
+    },
+    {
+        pic: "pdut9-302ai.png",
+        title: "302.AI",
+        description: "Top AI technologies hub with on-demand payment.",
+        url: "https://302.ai/"
+    },
+    {
+        pic: "pdut10-nanu.png",
+        title: "Nanu",
+        description: "AI baby name generator with GPT tech",
+        url: "https://www.nanu.fun/"
+    },
+    {
+        pic: "pdut11-hadacall.png",
+        title: "Had-a Call",
+        description: "Empower customer outreach with AI agents",
+        url: "https://www.hadacall.com/landing"
+    },
+    {
+        pic: "pdut12-shortlistiq.png",
+        title: "ShortlistIQ",
+        description: "Revolutionize recruitment with AI assistants.",
+        url: "https://www.shortlistiq.com/"
     },
 
 
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut13-fancraftai.png",
+        title: "FanCraft",
+        description: "Platform to create and monetize AI models with personal photos.",
+        url: "https://www.fancraftai.com/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut14-mykin.png",
+        title: "Kin",
+        description: "Your personal AI for a private life.",
+        url: "https://mykin.ai/"
     },
     {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
-    },
-    {
-        pic: "https://s.woy.ai/cdn-cgi/image/width=256,quality=75/https://s.woy.ai/banner/471c2684-4ea2-45fc-abf0-fb1736adfb3d.jpg",
-        title: "BrickCenter",
-        description: "Transform ideas into detailed Lego sets and minifigures, offering an intuitive platform to create and explore custom Lego designs"
+        pic: "pdut15-godiary.png",
+        title: "GoDiary",
+        description: "Automatically track fitness activities.",
+        url:  "https://godiary.io/"
     },
 
 ];

@@ -6,6 +6,7 @@ import {Footer} from "@/app/footer";
 export default function Home() {
   return (
       <div>
+
           <Head/>
           <Main/>
           <Footer/>

@@ -10,16 +10,16 @@ const ItemComponent: React.FC<ItemComponentProps> = ({ item }) => {
     return (
         <div className="bg-white rounded-lg py-4 [box-shadow:rgb(216,_216,_216)_6px_6px_32px] h-[340px]">
             <div className="flex flex-col justify-start px-8">
-                <div className="flex justify-center items-center h-[120px] mt-4"><a target="_blank" href="/p/brickcenter"><img
+                <div className="flex justify-center items-center h-[120px] mt-4"><a target="_blank" href={item.url}><img
                     src={item.pic}
                     alt="BrickCenter" className="rounded-md w-[99%]"/></a></div>
                 <div className="flex justify-between items-center mt-8">
                     <div className="w-4/5 flex justify-start text-lg font-bold hover:text-blue-500 text-main-color-0"><a
-                        target="_blank" href="/p/brickcenter"><span className="line-clamp-1">{item.title}</span></a>
+                        target="_blank" href={item.url}><span className="line-clamp-1">{item.title}</span></a>
                     </div>
                     <div className="w-1/5 flex justify-end"><a target="_blank" rel="nofollow"
                                                                className="text-gray-500 hover:text-blue-500"
-                                                               href="https://www.brickcenter.net/">
+                                                               href={item.url}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                              className="w-6 h-6">
                             <path fill-rule="evenodd"
