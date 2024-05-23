@@ -9,6 +9,18 @@ export interface Item {
 // 数据数组
 export const items: Item[] = [
     {
+        pic: "pdut16-opinionstage.png",
+        title: "Opinion Stage",
+        description: "Transform boring quizzes, forms, and surveys into interactive visual experiences your audience will love. Introducing Opinion Stage AI — make conversion-optimized quizzes and surveys in seconds. Fully customize and brand them to make them uniquely yours.",
+        url:  "https://www.opinionstage.com/"
+    },
+    {
+        pic: "pdut17-datagems.png",
+        title: "datagems",
+        description: "Transform scattered marketing data into compelling narratives with DataGems. Experience the power of data-driven storytelling with AI powered marketing agents. Try it now for insightful updates on the go.",
+        url:  "https://datagems.ai/"
+    },
+    {
         pic: "pdut1-chatbit.png",
         title: "Chatbit",
         description: "Custom AI chatbots trained on your data.Boost engagement, answer questions & capture leads. Trained and optimized on your data.",
@@ -101,5 +113,4 @@ export const items: Item[] = [
         description: "Automatically track fitness activities.",
         url:  "https://godiary.io/"
     },
-
 ];
