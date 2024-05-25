@@ -28,7 +28,7 @@ export function Footer() {
                 {
                     footerNavs.map((item, idx) => (
                         <li className=" hover:text-gray-800">
-                            <div className="flex items-center">
+                            <div key={idx} className="flex items-center">
                                 <img src="/shipfast.png" className="w-6 sm:mx-auto" />
                                 <a className="flex items-center" key={idx} href={item.href}>{ item.name }</a>
                             </div>
