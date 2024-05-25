@@ -1,5 +1,7 @@
 "use client";
 
+import {items} from "@/app/data";
+
 export function Footer() {
     const footerNavs = [
         {
@@ -26,7 +28,7 @@ export function Footer() {
             </div>
             <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
                 {
-                    footerNavs.map((item, idx) => (
+                    footerNavs.map(item => (
                         <li className=" hover:text-gray-800">
                             <div key={item.name} className="flex items-center">
                                 <img src="/shipfast.png" className="w-6 sm:mx-auto" />
